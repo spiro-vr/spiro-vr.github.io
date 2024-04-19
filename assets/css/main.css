@@ -2312,6 +2312,27 @@ button.small,
     border: 0;
 }
 
+#header2 {
+    text-align: center;
+    /* padding: 3em 0 0 0;*/
+    background-color: #333;
+    background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
+    background-position: top left, top left, top left;
+    background-size: 100% 6em, 100% 6em, auto;
+    background-repeat: no-repeat, no-repeat, repeat;
+}
+
+#header2 h1 {
+    padding: 0 0 2.75em 0;
+    margin: 0;
+}
+
+#header2 h1 a {
+    font-size: 1.5em;
+    letter-spacing: -0.025em;
+    border: 0;
+}
+
 #nav {
     cursor: default;
     background-color: #333;
@@ -2435,14 +2456,103 @@ button.small,
     margin-top: -1px;
 }
 
+#pricing {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.pricing-container {
+    display: inline-block;
+    text-align: left;
+}
+
+.pricing-column {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.hospital-column {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.pricing-header {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.price {
+    justify-content: center;
+    font-size: 50px;
+    color: #333;
+    margin-top: auto;
+}
+
+.price-note {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.features {
+    /* list-style-type: none; */
+    margin: 20;
+    text-align: left;
+}
+
+.hospital-benefits {
+    margin-top: 20px;
+}
+
+.hospital-benefits p {
+    font-weight: bold;
+}
+
+.hospital-benefits ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.features li {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
 
 /* Banner */
 
 #banner {
-    background-image: url("../../images/banner.jpg");
+    background-image: url("../../images/bg.gif");
     background-position: center center;
     background-size: cover;
-    height: 28em;
+    height: 150em;
     text-align: center;
     position: relative;
 }

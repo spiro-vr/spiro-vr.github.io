@@ -16,6 +16,10 @@
 <body class="is-preload">
 	<div id="page-wrapper">
 		<div id="header">
+			<h1>
+				<a href="index.html" id="logo"></em>
+				</a>
+			</h1>
 			<nav id="nav">
 				<ul>
 					<li class="current"><a href="index.html#nav">Home</a></li>
@@ -45,6 +49,8 @@
 					<!-- <li><a href="no-sidebar.html">No Sidebar</a></li> -->
 				</ul>
 			</nav>
+		</div>
+		<div id="header2">
 			<!-- <p>BYE</p> -->
 			<!-- Banner -->
 			<section id="banner">
@@ -55,7 +61,9 @@
 					<h2></h2>
 				</div>
 				<div style="width: fit-content; margin: 0 auto; color: white;">
-					<h5 style="font-size: 5em">SpiroVR</h5><p><h5 style="font-size: 2em"><em>A VR-Based Spirometry Test Suite</p></em></h5>
+					<h5 style="font-size: 5em">SpiroVR</h5>
+					<p>
+					<h5 style="font-size: 2em"><em>A VR-Based Breathing Test Suite</p></em></h5>
 				</div>
 
 				<!-- </h2>
@@ -67,42 +75,35 @@
 			<!-- Highlights -->
 			<section class="wrapper style1">
 				<div class="container">
-					<div class="row gtr-200">
-						<section class="col-4 col-12-narrower">
-							<div class="box highlight">
-								<i class="icon solid major fa-wind"></i>
-								<h3>Engaging Spirometry Tests</h3>
-								<p>Enhances the patient experience of completing tests for lung health.</p>
-							</div>
-						</section>
-						<section class="col-4 col-12-narrower">
-							<div class="box highlight">
-								<i class="icon solid major fa-vr-cardboard"></i>
-								<h3>Built with Virtual Reality</h3>
-								<p>Harnesses novel technology to create experiences that can motivate users.
-								</p>
-							</div>
-						</section>
-						<section class="col-4 col-12-narrower">
-							<div class="box highlight">
-								<i class="icon solid major fa-wrench"></i>
-								<h3>Hub of Mini-Games</h3>
-								<p>Soon any developer can submit mini games for users to test their lung health!</p>
-							</div>
-						</section>
-					</div>
+					<iframe width="888.888" height="500"
+						src="https://www.youtube.com/embed/kC9qdszij2I?si=MfFqURd-KTiNC0iR" title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 				</div>
+				<div class="container">
+					<p>SpiroVR is a collection of engaging mini games that act to enhance the patient experience when
+						completing airway clearance procedures. It utilizes an arduino coupled with a spirometer sensor
+						to obtain differential pressure data corresponding
+						to the user's lung volume. SpiroVR allows patients to become enveloped in a virtual world with
+						engaging tasks that require the user to perform actions mirroring airway clearance exerecies. By
+						doing this, patients are distracted
+						from the potentially stressful medical environment and are encouraged to perform well on the
+						test.
+					</p>
+				</div>
+
 			</section>
 
 			<!-- Gigantic Heading -->
-			<section class="wrapper style2">
+			<!-- <section class="wrapper style2">
 				<div class="container">
 					<header class="major">
 						<h2>Made for EECS 440: Extended Reality & Society</h2>
 						<p>By Milo Baumhardt, Téa Hajratwala, Arnav Reddy, Nicholas Way & Noah Peters</p>
 					</header>
 				</div>
-			</section>
+			</section> -->
 
 			<!-- Posts -->
 			<section class="wrapper style1">
@@ -110,21 +111,23 @@
 					<div class="row">
 						<section class="col-6 col-12-narrower">
 							<div class="box post">
-								<a href="https://www.arduino.cc" class="image left"><img src="images/arduino_logo.png"
-										alt="" /></a>
+								<a href="#nav" class="image left"><img src="images/wizard.png" alt="" /></a>
 								<div class="inner">
-									<h3>Arduino</h3>
-									<p>We use an Arduino coupled with a spirometer sensor to retrive differential
-										pressure data which can then be used to determine lung volume.</p>
+									<h3>Wizard Battle</h3>
+									<p>Battle a wizard where you cough fireballs at an enemy. Try to dodge their many
+										attacks!
+									</p>
 								</div>
 							</div>
 						</section>
 						<section class="col-6 col-12-narrower">
 							<div class="box post">
-								<a href="https://unity.com" class="image left"><img src="images/unity_vr_demo.png" alt="" /></a>
+								<a href="#nav" class="image left"><img src="images/archer.png" alt="" /></a>
 								<div class="inner">
-									<h3>Unity VR</h3>
-									<p>We use Unity to create the Virtual Reality application. </p>
+									<h3>Archery</h3>
+									<p>Play an archery mini-game where you inhale and exhale to shoot arrows at moving
+										targets. Play many rounds and hit all the targets!
+									</p>
 								</div>
 							</div>
 						</section>
@@ -132,12 +135,11 @@
 					<div class="row">
 						<section class="col-6 col-12-narrower">
 							<div class="box post">
-								<a href="https://ardity.dwilches.com" class="image left"><img src="images/pic03.jpg"
-										alt="" /></a>
+								<a href="#nav" class="image left"><img src="images/bowl.png" alt="" /></a>
 								<div class="inner">
-									<h3>Ardity</h3>
-									<p>Unity Plugin which allows us to connect the arduino & spirometer with Unity VR so
-										that we can utilize sensor data within the application</p>
+									<h3>Bowling</h3>
+									<p>Experience an accurate simulator of a bowling alley. Try to aim and blow the ball
+										down to hit all the pins!</p>
 								</div>
 							</div>
 						</section>
@@ -145,14 +147,115 @@
 							<div class="box post">
 								<a href="#nav" class="image left"><img src="images/pic04.jpg" alt="" /></a>
 								<div class="inner">
-									<h3>TBD</h3>
-									<p>Lots more in development. Stay Tuned!</p>
+									<h3>More games coming soon!</h3>
+									<p>With the subscription plan you have access to our new games which are released
+										monthly
+									</p>
 								</div>
 							</div>
 						</section>
 					</div>
 				</div>
 			</section>
+			<section id="pricing">
+				<div class="pricing-column">
+					<div class="pricing-header">
+						<h2>Breath Sensor Bundle</h2>
+						<img src="images/bsb.webp" alt="" width="200px" />
+					</div>
+					<ul class="features">
+						<li>One time purchase of a <b>SpiroVR Breath Sensor</b></li>
+						<li>Compatible with existing VR headsets</li>
+						<li>Comes with <b>three exciting minigames!</b>
+							<ul>
+								<li>Archery Practice</li>
+								<li>Wizard Battle</li>
+								<li>Bowling Alley</li>
+							</ul>
+						</li>
+
+					</ul>
+					<p class="price">$49</p>
+					<!-- <button class="btn">Choose Plan</button> -->
+				</div>
+
+				<div class="pricing-column">
+					<div class="pricing-header">
+						<h2>Headset Bundle</h2>
+						<img src="images/hsb.webp" alt="" width="200px" />
+					</div>
+
+					<ul class="features">
+						<li>One time purchase of a <b>SpiroVR Breath Sensor</b> AND a <b>SpiroVR headset</b></li>
+						<li>Comes with <b>three exciting minigames!</b>
+							<ul>
+								<li>Archery Practice</li>
+								<li>Wizard Battle</li>
+								<li>Bowling Alley</li>
+							</ul>
+						</li>
+
+					</ul>
+					<p class="price">$199</p>
+					<!-- <button class="btn">Choose Plan</button> -->
+				</div>
+
+				<div class="pricing-column">
+					<div class="pricing-header">
+						<h2>Subscription</h2>
+						<img src="images/sub2.png" alt="" width="300px" />
+					</div>
+					<ul class="features">
+						<li>A <b>personal, all-inclusive</b> SpiroVR setup in your home. Includes:
+							<ul>
+								<li>SpiroVR Headset</li>
+								<li>SpiroVR Breath Sensor</li>
+								<li><b>Instant access to brand new minigames monthly</b></li>
+							</ul>
+						</li>
+
+					</ul>
+					<p class="price">$25/month</p>
+					<!-- <button class="btn">Choose Plan</button> -->
+				</div>
+
+			</section>
+			<p class="price-note">* Price may vary by insurance plan</p>
+			<div class="hospital-column">
+				<div class="hospital-benefits">
+					<p class="features">Are you a hospital? Reach out to our team!</p>
+					<ul class="features">
+						<li>Bulk discounts for hospitals purchasing multiple sets</li>
+						<li>Priority technical support and training for hospital staff</li>
+						<li>Hospitals can issue SpiroVR to patients as needed</li>
+						<li>Instant access to all new minigames as they are released</li>
+					</ul>
+					<section class="col-6 col-12-narrower">
+
+						<form>
+							<div class="row gtr-50">
+								<div class="col-6 col-12-mobilep">
+									<input type="text" name="name" id="name" placeholder="Name" />
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<input type="email" name="email" id="email" placeholder="Email" />
+								</div>
+								<div class="col-12">
+									<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+								</div>
+								<div class="col-12">
+									<ul class="actions">
+										<li><input type="submit" class="button alt" value="Send Message" /></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</section>
+				</div>
+			</div>
+
+			<!-- <h3>*Price may vary by insurance plan</h3> -->
+
 
 			<!-- CTA -->
 			<section id="cta" class="wrapper style3">
